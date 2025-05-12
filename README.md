@@ -1,6 +1,6 @@
 # Coding Challenges Repository
 
-Welcome to my **Coding Challenges** repo! This is where I keep track of all the programming challenges I’m tackling as I learn new languages and improve my problem-solving skills.
+Welcome to my **CodeQuest** repo! This is where I keep track of all the programming challenges I’m tackling as I learn new languages and improve my problem-solving skills.
 
 ## 📂 Current Focus
 
