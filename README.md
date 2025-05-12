@@ -20,4 +20,19 @@ Right now, I’m focusing on **C++** and working through **50 different challeng
 ## 🚀 My Goal
 This repo is an ongoing project that reflects my learning process. Each challenge I complete represents a step toward becoming a better programmer. Feel free to explore, contribute, or leave feedback!
 
+## 📜 License
+
+This project is licensed under the [CC BY-NC-ND 4.0 License](LICENSE).  
+You're welcome to **view**, **use**, and **share** the code with proper credit 🤝 —  
+but please **don’t modify or redistribute** it without permission 🚫✍️.
+
+## 💬 Contributions & Feedback
+
+I’d love to hear your thoughts! 💡  
+Feel free to open an issue if you have suggestions, ideas, or questions 🙌  
+However, **pull requests or direct code changes** are not allowed unless I invite you 🛑
+
+Thanks for visiting this repo! 😊✨
+
+
 Happy coding! 😊
