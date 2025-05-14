@@ -1,12 +1,12 @@
 /*
-
+ 
 04:
 ✅ left-Aligned Triangle: 
                             ****
                             -***
                             --**
                             ---*
-
+ 
  💡 Hint: First print increasing spaces, then decreasing stars.
 
 */
