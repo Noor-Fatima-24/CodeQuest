@@ -8,7 +8,7 @@
                   *******
 
  💡 Hint: Use the first loop to print spaces (decreasing each row).Then, print stars (increasing each row).
-
+ 
 */
 #include<iostream>
 using namespace std;
