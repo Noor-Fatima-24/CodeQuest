@@ -8,7 +8,7 @@
                   ****
 
 
- 💡 Hint: Stars on borders, spaces inside.
+ 💡 Hint: Stars on  borders, spaces inside.
 
 */
 #include<iostream>
