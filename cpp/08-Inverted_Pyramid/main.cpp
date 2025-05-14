@@ -8,7 +8,7 @@
                       *
 
 💡 Hint: Reverse of the pyramid .
-
+ 
 */
 #include<iostream>
 using namespace std;
