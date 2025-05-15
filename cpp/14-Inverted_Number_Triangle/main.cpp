@@ -11,7 +11,7 @@
 
     Use outer loop for rows from n down to 1.
      Inner loop runs from 1 to current row number                                
-
+ 
 */
 
 #include<iostream>
