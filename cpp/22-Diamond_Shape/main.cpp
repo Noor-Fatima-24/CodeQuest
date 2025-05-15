@@ -21,7 +21,7 @@ using namespace std;
 
 int main() 
 {
-    //upper
+    //top
     for (int i = 1; i <= 4; i++)
     {
         for (int s = 4; s >= i; s--)
@@ -34,7 +34,7 @@ int main()
         }
         cout<<endl;
     }
-    //lower
+    //bottom
     for (int i = 4; i >= 1; i--)
     {
         for (int s = 4; s >= i; s--)
