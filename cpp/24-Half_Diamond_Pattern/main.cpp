@@ -35,7 +35,7 @@ int main()
         cout<<endl;
     }
     //lower
-    for (int i = 4; i >= 1; i--)
+    for (int i = 3; i >= 1; i--)
     {
         // for (int s = 4; s >= i; s--)
         // {
