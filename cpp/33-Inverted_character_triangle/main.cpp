@@ -20,7 +20,7 @@ int main()
     
     for ( char i='D'; i >= 'A'; i--)
     {
-        for (char j = 'D'; j >= i; j--)
+        for (char j = i; j >= 'A'; j--)
         {
             cout<<j<<" ";
         }
