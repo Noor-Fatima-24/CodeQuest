@@ -1,18 +1,26 @@
 /*
 
-41: 
-✅ Snake Pattern : 
-                    1  2  3  4  
-                    8  7  6  5  
-                    9 10 11 12  
-                    16 15 14 13  
+42: 
+✅ Zigzag Number Pattern: 
+                             1  
+                            2 3  
+                           4   5  
+                          6     7
+  clearly look at the spaces:  
+                          ---1  
+                          --2-3  
+                          -4---5  
+                          6-----7
 
+ 🎯logic:
 
- 🎯Hint:
-
- 1): Alternate direction for each row (use modulo % 2).
- 2): Loop: Outer for rows, inner for columns.
- 3): Counter: Use a single variable to increment.
+ 1):  Print leading spaces: as they are decreasing from 3 to 1.
+ 2): Outer loop: Rows.
+ 3): Inner loop: Print spaces + number.
+     3A): Print first number.
+            (only for i > 1)
+     3B): Inner spaces (gaps between numbers)(1,3,5)(2*i-3).
+     3C): Second/next number .  
 
 */
 #include<iostream>
@@ -20,40 +28,33 @@ using namespace std;
 
 int main()
 {
-   int c=1;
-        for (int i = 1; i <= 4; i++)
+    int c = 1;
+
+    for (int i = 1; i <= 4; i++)
+    {
+        // Print leading spaces
+        for (int s = 1; s <= 4 - i; s++)
         {
-             if ( i % 2 == 1 )
-             {
-                for (int j = 1; j <= 4; j++)
-                {
-                   cout<<c<<" ";
-                  c++;
-                }
-             }
-             else
-             {
-                  // since we’re going to print 4 numbers
-            for (int j = 4; j >= 1; j--)
-            {
-                cout << c << " ";
-                c++;
-            }
-                 
-             }
-             
-        cout<<endl;
-        
+            cout << " ";
         }
+
+        // Print the first number
+        cout << c++;
+
+        // Print inner spaces and second number (only for rows > 1)
+        if (i > 1)
+        {
+            for (int n = 1; n <= 2 * i - 3; n++)
+            {
+                cout << " ";
+            }
+
+            // Print second number
+            cout << c++;
+        }
+
+        cout << endl;
+    }
+
     return 0;
 }
-
-/*
-
-Objective of the Code:
-The code prints a 4×4 matrix with numbers from 1 to 16 in a zigzag row-wise fashion:
-
-Even-indexed rows (i % 2 == 0) are printed left to right
-Odd-indexed rows (i % 2 == 1) are printed right to left
-
-*/
