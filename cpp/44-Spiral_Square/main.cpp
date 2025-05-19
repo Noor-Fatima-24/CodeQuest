@@ -1,7 +1,7 @@
 /*
 
 44: 
-✅ Spiral Square (4x4): 
+🎯 Spiral Square (4x4): 
                         1  2  3  4  
                         12 13 14 5  
                         11 16 15 6  
