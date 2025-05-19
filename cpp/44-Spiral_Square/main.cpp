@@ -12,7 +12,7 @@
  1): Fill outer layers first, then go inward.
  2): loops per layer (left→right, top→bottom, right→left, bottom→top).
  3): This code is better done by using array.
- 4): 🔄 Flow of Spiral Movement:
+ 4): Flow of Spiral Movement:
                                  S tep 1 → Top Row       → 1 2 3 4
                                  Step 2 ↓ Right Column  →       5
                                  Step 3 ← Bottom Row    → 10 9 8 7
