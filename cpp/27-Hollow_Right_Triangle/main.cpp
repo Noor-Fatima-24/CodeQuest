@@ -1,11 +1,10 @@
 /*
 27: 
-✅ Hollow Right Triangle : 
+✅ Hollow Right Triangle :           
                            *
+                           **
                            * *
-                           *   *
-                           *****
-                             
+                           ****                            
 
  🎯Hint:
 
